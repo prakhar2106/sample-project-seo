@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { ReactSEOMetaTags } from "react-seo-meta-tags";
 import { Helmet } from "react-helmet";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
