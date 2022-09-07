@@ -26,7 +26,11 @@ root.render(
         <Switch>
           <Route path="/about">
             <Helmet>
-              <title>hello</title>
+              <title>About page</title>
+              <meta
+                name="description"
+                content="about page"
+              />
             </Helmet>
             {/* <ReactSEOMetaTags
               website={{
@@ -40,8 +44,13 @@ root.render(
           </Route>
           <Route path="/users">
             <Helmet>
-              <title>hello</title>
+            <meta
+                name="description"
+                content="users page"
+              />
+              <title>User page</title>
             </Helmet>
+
             {/* <ReactSEOMetaTags
               website={{
                 title: "users title",
@@ -54,7 +63,11 @@ root.render(
           </Route>
           <Route path="/">
             <Helmet>
-              <title>hello</title>
+            <meta
+                name="description"
+                content="main page"
+              />
+              <title>Home page</title>
             </Helmet>
             {/* <ReactSEOMetaTags
               website={{
